@@ -1,0 +1,21 @@
+#mainContainer {
+    background-color: rgb(173, 232, 255);
+    width: 500px;
+}
+
+#imgMain {
+    height: 100%;
+    width: 100%;
+}
+
+#divImg {
+    height: 300px;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}

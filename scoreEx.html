@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scoreCSS.css">
+
+</head>
+
+<body>
+    <div id="mainContainer">
+        <!--This is the main container need to have the needed sizes and charateristic-->
+        <div id="divImg">
+            <img src="pingpongMain_612x612.jpg" alt="Ping Pong Score Program" id="imgMain">
+            <!-- Image need to cover all the div-->
+        </div>
+        <div>
+            <h3>Ping Pong Score Keeper
+                <!--(Here go the Title)-->
+            </h3>
+        </div>
+        <span id="spanScore">
+            <h1><a id="scoreP1">0</a> to <a id="scoreP2">0</a></h1>
+            <p>Use the buttoons below to keep score.</p>
+            <!-- Here go the score firstPlayerScore to secondPlayerScore
+                (this will change color red when some one loose and green when
+                someone win)  -->
+        </span>
+        <span>
+            <h2>Playing To
+                <select name="" id="playTo">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option selected="selected" value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+                <!--here go the max score selector -->
+            </h2>
+        </span>
+        <span>
+            <button id="plusP1">+1 Player One
+                <!--This need to be green and add +1 to firstPlayer -->
+            </button>
+            <button id="plusP2">+1 Player Two
+                <!--This need to be blue and add +1 to firstPlayer -->
+            </button>
+            <button id="reset">Reset
+                <!--This need to be red and reset all the program to base -->
+            </button>
+        </span>
+
+    </div>
+    <script src="scoreApp.js"></script>
+</body>
+
+</html>
